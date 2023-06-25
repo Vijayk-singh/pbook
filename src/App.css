@@ -1,38 +1,79 @@
-.App {
+*{
   text-align: center;
+  
+
+
+}
+.header{
+  background-color: #A9C9FF;
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  font-style: normal;
+  padding: 20px 5px;
+  font-size: large;
+  font-weight: bolder;
+  
+}
+.search{
+  padding: 10px;
+ 
+
+}
+.search input{
+  border-radius: 20px;
+  height: 5vh;
+  width:40vh;
+
+}
+.addbtn{
+  padding: 20px;
+  background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+width: fit-content;
+border: 5px solid white;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.preview{
+  display: block;
+  gap: 5px;
+}
+.list{
+  -webkit-box-shadow: -3px -1px 58px 0px rgba(191,53,191,0.4);
+-moz-box-shadow: -3px -1px 58px 0px rgba(191,53,191,0.4);
+box-shadow: -3px -1px 58px 0px rgba(191,53,191,0.4);
+width: 70%;
+margin: auto;
+}
+.fbtn button{
+background-color: transparent;
+ 
+border: solid 2px white;
+border-radius: 20px;
+ padding: 10px;
+ color: white;
+ margin: 0px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.addfrm
+{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.fbtn{
+  padding: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addfrm input{
+  padding-top: 20px;
+  margin: auto;
+  height: 7vh;
+}
+.addfrm textarea{
+  
+  margin: auto;
+  height: 20vh;
+  width: 56.8vh;
 }
